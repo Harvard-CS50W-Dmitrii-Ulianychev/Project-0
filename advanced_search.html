@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+<nav>
+  <a href="index.html">Google Search</a>
+</nav>
+<form action="https://www.google.com/search">
+  <p>Find pages with…</p>
+  <label for="all-words">all these words: <input id="all-words" class="advanced" type="text" name="as_q"></label>
+  <label for="exact-phrase">this exact word or phrase: <input id="exact-phrase" class="advanced" type="text" name="as_epq"></label>
+  <label for="any-word">any of these words: <input id="any-word" class="advanced" type="text" name="as_oq"></label>
+  <label for="exclude-words">none of these words: <input id="exclude-words" class="advanced" type="text" name="as_eq"></label>
+  <input type="submit" value="Advanced Search" id="advanced-search">
+</form>
+    </body>
+</html>
